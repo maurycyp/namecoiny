@@ -10,4 +10,4 @@ mkdir ~/.namecoin
 touch ~/.namecoin/namecoin.conf
 chmod 600 ~/.namecoin/namecoin.conf
 echo "rpcuser=namecoinrpc\nrpcpassword=namecoin\nrpcallowip=*" > ~/.namecoin/namecoin.conf
-/usr/bin/namecoind
+/usr/bin/namecoind &
